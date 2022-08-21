@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+display: flex;
+justify-content: space-between;
+ align-items: center;
+ margin: 2rem 8rem;
+font-family:  Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.list-item{
+list-style: none;
+    margin: 0 1rem;
+}
+
+.list-item:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+}
+
+
+.square{
+  position: absolute;  
+    bottom: 200px;
+    left: 100px;
+}
+
+.hero-image{
+    width: 450px;
+}
+
+
+button{
+    padding: 0.5rem 3rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+
+
+.hero-container{
+    margin: 5rem 8rem 2rem 8rem;
+    position: relative;
+    display: flex;
+    gap: 5rem;
+}
+
+.square{
+    position: absolute;
+    z-index: -1;
+    bottom: 35px;
+    margin-left: -40px;
+}
+
+.hero-container-left{
+
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading{
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    margin: 4rem 4rem 2rem 3rem;
+    
+}
+
+.hero-description{
+    font-family: "robotics", Helvetica, sans-serif;
+    width: 60%;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    margin-bottom: 5rem;
+}
+
+.button-join, .button-email{
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-weight: 800;
+    
+}
+
+.button-email{
+    color:rgb(60, 60, 60);
+    border-color: rgb(60, 60, 60);
+    margin-top: -50px;
+}
+
+.button-join{
+    background-color:#000;
+    color: #fff;
+}
+
+
+
+
+
+.contact-heading{
+    font-weight: 400;
+    font-size: larger;
+    color:rgb(60, 60, 60);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+
+.star ,.star2, .globe{
+    position: absolute;
+}
+
+.globe{
+    top: -50px;
+    left: 52%;
+    
+}
+
+.star{
+    top: -10px;
+    right: 7.5%;
+}
+
+h4{
+    margin-left: 50px;
+    margin-bottom: 1rem;
+}
+
+.nav-button, .button-email , .button-join{
+    cursor: pointer;
+}
+
